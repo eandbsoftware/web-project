@@ -22,9 +22,9 @@
 18. Formulaire listbox
 19. Formulaire text
 20. Formulaire bouton
-21. css
-22. Script sur bouton de formulaire
+21. CSS
+22. Barre de navigation
 23. Lien avec les autres pages
-24. Barre de navigation
+24. Script sur bouton de formulaire
 
 ===========================
