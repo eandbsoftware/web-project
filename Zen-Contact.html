@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/style.css">
+      <script>
+      function foo() {
+         alert("Submit button clicked!");
+         return true;
+      }
+      </script>
+      <title>Le Zen</title>
+   </head>  
+   <body>
+    <div id="header_page_web">
+      <div id="title_page_web" style="background-color:black;color:white;padding:10px;">
+         <h1>ZEN - Origines du Bouddhisme zen</h1>
+      </div>
+       <ul>
+         <li><audio id="myAudioZen" controls>
+            <source src="audio/peaceful-zen.mp3" type="audio/mp3">
+            Your browser does not support HTML5 audio.
+            </audio></li>
+         <li><a class="active" href="index.html">Page d'accueil</a></li>
+         <li><a href="Zen-Meditation.html">Zen - Meditation</a></li>
+         <li><a href="Zen-Contact.html">Zen - Contact</a></li>
+         <li><a href="Zen-Informations.html">Zen - Informations</a></li>
+       </ul>  
+    </div>
+    <div id="contenu_page_web" style="background-color:black; color: white;">
+      <table style="width:100%;">
+        <tr>
+          <th>Formulaire de contact</th>
+        </tr>
+        <tr>
+          <td>
+               <form>
+                 <fieldset>
+                 <legend>Quels sont vos centres d'intérêts :</legend>
+                   <div>
+                   <select name="interets" size="5">
+                       <option value="Musique"> Musique </option>
+                       <option value="Cinéma"> Cinéma </option>
+                       <option value="Sport"> Sport </option>
+                       <option value="Mode"> Mode </option>
+                   </select>
+                 </div>
+                 <legend>Quels sont vos centres d'intérêts :</legend>
+                 <div>
+                   <input type="checkbox" id="music" name="interest" value="music">
+                   <label for="music">Musique</label>
+                 </div>
+                 <div>
+                   <input type="checkbox" id="cinema" name="interest" value="cinema">
+                   <label for="cinema">Cinéma</label>
+                 </div>
+                   <div>
+                   <input type="checkbox" id="sport" name="interest" value="sport">
+                   <label for="music">Sport</label>
+                 </div>
+                   <div>
+                   <input type="checkbox" id="fashion" name="interest" value="fashion">
+                   <label for="music">Mode</label>
+                 </div>
+                 <legend>Quels sont vos données personnelles :</legend>
+                 <div>
+                     <label for="nom">Nom:</label><br>
+                     <input type="text" id="nom" name="nom"><br>
+                 </div>
+                 <div>
+                   <label for="prenom">Prenom:</label><br>
+                   <input type="text" id="prenom" name="prenom">
+                 </div>
+                 <div>
+                   <button type="submit" onclick="return foo();">Envoyer</button>
+                 </div>
+               </fieldset>
+               </form>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="footer_page_web" style="background-color:black;color:white;padding:20px;">
+         <img src="images/zen-img-01.jpeg" width="1200" height="450" alt="Le Zen">
+    </div>
+   </body> 
+</html>

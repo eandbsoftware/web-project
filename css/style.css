@@ -2,17 +2,23 @@ body {
   background-color: #FFFFFF;
 }
 h1 {
-  color: blue;
+  color: white;
+  font-size:30px;
+  font-family: "Tahoma";
 }
 p {
-  color: red;
+  color: white;
+  font-size:15px;
+  font-family: "Tahoma";
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: "Tahoma";
 }
 
 li {
@@ -25,8 +31,23 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Tahoma";
 }
 
 li a:hover {
     background-color: #4CAF50;
+}
+
+div {
+  background-image: url("images/zen-img-01.jpeg");
+}
+
+form {
+  font-size:15px;
+  font-family: "Tahoma";
+}
+
+th {
+  font-size:20px;
+  font-family: "Tahoma";
 }
